@@ -1,0 +1,75 @@
+* {
+    text-align: center;
+}
+
+#name {
+    color: rgb(0, 0, 0);
+}
+#foto{
+    padding: 5px;
+}
+
+section.Formação_academica,
+section.Formação_complementar,
+section.hab_comportamentais {
+    background-color: rgb(181, 172, 172);
+    border: 2px dashed black;  
+
+}
+
+section.Formação_academica:hover,
+section.Formação_complementar:hover,
+section.hab_comportamentais:hover {
+    transition-duration: 1.5s;
+    transform: scale(1.05);
+}
+
+p {
+    font-family: Verdana;
+    
+}
+h1{
+    background-color: rgb(212, 239, 239);
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    padding-right: 10px;
+
+}
+
+.infos {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li {
+
+    list-style-position: inside;
+}
+
+a {
+
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+
+
+}
+
+a:hover {
+    opacity: 0.5;
+
+
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
